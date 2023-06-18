@@ -1,0 +1,23 @@
+.cuerpo {
+  text-align: center;
+}
+
+.cuerpo__boton {
+  margin: 1em;
+  font-size: 1.2em;
+  background: linear-gradient(rgb(59, 144, 255), rgb(152, 152, 208));
+  padding: 1em 2rem;
+  font-family: cursive, sans;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.cuerpo__boton:hover {
+  transition: 1s;
+  transform: scale(1.1);
+
+}
+.cuerpo__boton::after {
+  background-color: rgb(154, 140, 60);
+}

@@ -1,0 +1,33 @@
+.container-banderas {
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+
+}
+
+.item__bandera{
+width: 120px;
+margin-left: 0.5em ;
+cursor: pointer;
+opacity: 0.5;
+
+
+}
+
+.item__bandera:hover{
+transition: 1s;
+transform: scale(1.1);
+opacity: 1;
+
+
+}
+
+.banderas{
+
+width:100%;
+min-height: 90px;
+
+}
